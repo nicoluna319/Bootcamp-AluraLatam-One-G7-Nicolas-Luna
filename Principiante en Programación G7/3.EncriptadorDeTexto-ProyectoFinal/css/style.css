@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --fuenteInter: "Inter", sans-serif; ;
+}
+
+
+body{
+    background-color: #E9ECF8;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    padding: 2rem 4rem 2rem 4rem  ; 
+    border: solid red;
+    justify-content: space-between;
+
+}
+
+.columnLeft{
+    font-family: var(--fuenteInter) ;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red; */
+}
+
+.inputPrincipal{
+    padding: 50%;
+
+
+}
+.cajaBotones{
+display: flex;
+
+}
+
+.botones{
+    font-family: var(--fuenteInter) ;
+    font-weight: 400;
+    color: white;
+    background-color: #072B61;
+    padding: 15px 60px;
+    border-radius: 35px;
+    border : solid#072B61;
+    
+
+
+}
+
+.columnRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8% 2% 12% 2%; 
+    margin-left: 50%;
+     
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(184, 184, 184);
+}
+
+.ningunMensaje{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    text-align: center;
+}
